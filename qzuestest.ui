@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QZuesTestClass</class>
+ <widget class="QMainWindow" name="QZuesTestClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>707</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QZuesTest</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QZuesLabel" name="lblZues">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:1px solid red;
+color: rgb(255, 170, 0);
+font: 75 14pt &quot;Adobe Caslon Pro Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabelTextLabel</string>
+    </property>
+   </widget>
+   <widget class="QZuesListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;
+color:red;</string>
+    </property>
+   </widget>
+   <widget class="QZuesLineEdit" name="txtZues">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>11</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnReset">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QZuesLabel</class>
+   <extends>QLabel</extends>
+   <header>qzueslabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QZuesLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qzueslineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QZuesListView</class>
+   <extends>QListView</extends>
+   <header>qzueslistview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qzuestest.qrc"/>
+ </resources>
+ <connections/>
+</ui>
