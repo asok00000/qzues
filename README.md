@@ -1,2 +1,3 @@
 # qzues
 An extension lib of Qt
+Include styled combobox,line edit with reset function,marquee labe...
