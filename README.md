@@ -1,5 +1,5 @@
 # qzues
-An extension lib of Qt\n
+An extension lib of Qt<br>
 Include styled combobox,line edit with reset function,marquee labe...\n
 Any question or advice,please contact me via asok00000@qq.com.\n
 Any functiosns those Qt don't provide,can post to my email.I will add it to QZues.\n
