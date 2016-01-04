@@ -4,7 +4,7 @@ Include styled combobox,line edit with reset function,marquee labe...<br><br>
 Any question or advice,please contact me via asok00000@qq.com.<br><br>
 Any functiosns those Qt don't provide,can post to my email.I will add it to QZues.<br><br>
 Intro<br>
-  QZuesLabel<br>
+   <b>QZuesLabel</b><br>
     1.marquee effect like HTML tag Marquee,by set the label type with LABEL_TYPE_MARQUEE and set the step length by setStepLength to control the text move length.<br>
     2.auto fill place holder text when the text length bigger than the label length,set the place holder text via setPlaceholdText the default is "...".<br>
   QZuesComboBox<br>
