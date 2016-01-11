@@ -13,3 +13,5 @@ Any functiosns those Qt don't provide,can post to my email.I will add it to QZue
     1.a line edit with reset function,this line edit will remenber the text which set first,and you can call the <code>reset</code> function to reset the line edit to the original status.And this class will emit text status changed signal.<br>
   <b>QZuesListView</b><br>
     1.a list view can display tips when the list is empty.call <code>setEmptyTips</code> to set the empty tips.<br>
+  <b>QZuesCircle</b><br>
+    1.a circle progress bar,you can call <code>setTextVisible</code> to show or hide the text percent,call <code>setActiveColor</code> and <code>setDeactiveColor</code> to set the circle color or text color<br>
