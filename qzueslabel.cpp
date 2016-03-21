@@ -142,7 +142,7 @@ void QZuesLabel::setType(LabelType val)
 		}
 		update();
 	}
-	
+	qDebug() <<"Label Type:"<<val;
 }
 
 int QZuesLabel::getStepLength() const

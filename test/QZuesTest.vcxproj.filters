@@ -33,6 +33,15 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="QZues">
+      <UniqueIdentifier>{eb849fc7-ed9c-46cc-b9c1-5fc346c236a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QZues\Header Files">
+      <UniqueIdentifier>{a0912ea1-0922-4001-b971-4626d584225b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QZues\Source Files">
+      <UniqueIdentifier>{3ff0096d-73c1-4304-82c2-1ad3e1ff7086}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,17 +59,17 @@
     <ClCompile Include="GeneratedFiles\qrc_qzuestest.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="qzueslabel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_qzueslabel.cpp">
+    <ClCompile Include="GeneratedFiles\Debug\moc_qzuesanimationstackwidget.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_qzueslabel.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_qzuesanimationstackwidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="qzuescombobox.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qzuescircle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qzuescircle.cpp">
+      <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_qzuescombobox.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -68,8 +77,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_qzuescombobox.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="qzueslineedit.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qzueslabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qzueslabel.cpp">
+      <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_qzueslineedit.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -77,25 +89,49 @@
     <ClCompile Include="GeneratedFiles\Release\moc_qzueslineedit.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="QZuesGlobal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="qzueslistview.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_qzueslistview.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_qzueslistview.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="qzuesrotatelabel.cpp">
+    <ClCompile Include="..\qzuesanimationstackwidget.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qzuescircle.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qzuescombobox.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\QZuesGlobal.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qzueslabel.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qzueslineedit.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qzueslistview.cpp">
+      <Filter>QZues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="infodisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_qzuesrotatelabel.cpp">
+    <ClCompile Include="GeneratedFiles\Debug\moc_infodisplay.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_qzuesrotatelabel.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_infodisplay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="addinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addinfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addinfo.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
   </ItemGroup>
@@ -109,28 +145,46 @@
     <CustomBuild Include="qzuestest.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="qzueslabel.h">
+    <CustomBuild Include="..\qzuesanimationstackwidget.h">
+      <Filter>QZues\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qzuescircle.h">
+      <Filter>QZues\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qzuescombobox.h">
+      <Filter>QZues\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qzueslabel.h">
+      <Filter>QZues\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qzueslineedit.h">
+      <Filter>QZues\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\qzueslistview.h">
+      <Filter>QZues\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="infodisplay.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="qzuescombobox.h">
+    <CustomBuild Include="infodisplay.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addinfo.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="qzueslineedit.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="qzueslistview.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="qzuesrotatelabel.h">
-      <Filter>Header Files</Filter>
+    <CustomBuild Include="addinfo.ui">
+      <Filter>Form Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_qzuestest.h">
+    <ClInclude Include="..\QZuesGlobal.h">
+      <Filter>QZues\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_infodisplay.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="QZuesGlobal.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="GeneratedFiles\ui_addinfo.h">
+      <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

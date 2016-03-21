@@ -31,6 +31,12 @@
     </item>
     <item>
      <widget class="QZuesListView" name="listView">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="styleSheet">
        <string notr="true">font: 50pt &quot;Adobe Arabic&quot;;
 color:red;</string>
@@ -56,14 +62,40 @@ font: 75 14pt &quot;Adobe Caslon Pro Bold&quot;;</string>
      </widget>
     </item>
     <item>
-     <widget class="QZuesAnimationStackWidget" name="stkTest" native="true">
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>500</height>
-       </size>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QZuesAnimationStackWidget" name="stkTest" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:1px solid green;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnNextPage">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Next</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
@@ -74,27 +106,27 @@ font: 75 14pt &quot;Adobe Caslon Pro Bold&quot;;</string>
   <customwidget>
    <class>QZuesLabel</class>
    <extends>QLabel</extends>
-   <header>../qzueslabel.h</header>
+   <header>qzueslabel.h</header>
   </customwidget>
   <customwidget>
    <class>QZuesLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>../qzueslineedit.h</header>
+   <header>qzueslineedit.h</header>
   </customwidget>
   <customwidget>
    <class>QZuesListView</class>
    <extends>QListView</extends>
-   <header>../qzueslistview.h</header>
+   <header>qzueslistview.h</header>
   </customwidget>
   <customwidget>
    <class>QZuesAnimationStackWidget</class>
    <extends>QWidget</extends>
-   <header>../qzuesanimationstackwidget.h</header>
+   <header>qzuesanimationstackwidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="test/qzuestest.qrc"/>
+  <include location="qzuestest.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -19,6 +19,7 @@
 class QZuesLabel : public QLabel
 {
 	Q_OBJECT
+	Q_ENUMS(LabelType)
 public:
 	QString getPlaceholdText() const;
 	void setPlaceholdText(QString val);
