@@ -15,3 +15,5 @@ Any functiosns those Qt don't provide,can post to my email.I will add it to QZue
     1.a list view can display tips when the list is empty.call <code>setEmptyTips</code> to set the empty tips.<br>
   <b>QZuesCircle</b><br>
     1.a circle progress bar,you can call <code>setTextVisible</code> to show or hide the text percent,call <code>setActiveColor</code> and <code>setDeactiveColor</code> to set the circle color or text color<br>
+  <b>QZuesAnimationStackWidget</b><br>
+    1.an animation stackwidget,you can call <code>setAnimationTypes</code> to set animation type,call <code>setAnimationDuration</code>  to set the animation duration<br>
