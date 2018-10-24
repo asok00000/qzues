@@ -9,7 +9,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'printenv'
+                bat 'pwd'
+                bat 'cd d:/'
+                bat 'dir'
             }
         }
     }
