@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat returnStdout: true, script: 'pwd'
+                bat returnStdout: true, script: 'dir'
 
             }
         }
